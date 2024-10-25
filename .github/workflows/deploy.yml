@@ -46,9 +46,7 @@ jobs:
       - name: Install dependencies
         run: npm ci # or pnpm install / yarn install / bun install
       - name: Build with VitePress
-        run: 
-          npm run docs:build # or pnpm docs:build / yarn docs:build / bun run docs:build
-          touch .nojekyll # 通知githubpages不要使用Jekyll处理这个站点，不知道为啥不生效，就手动搞了
+        run: npm run docs:build # or pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
