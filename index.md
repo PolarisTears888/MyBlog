@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "办公效率工具资料库"
+  text: "收集整理提效工具"
+  tagline: 实时更新中...
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 进入资料库
+      link: /MyKnowledgeBase/tutorial/general/tools
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 工具
+    details: 简化步骤，快速达成。
+  - title: 插件
+    details: 突破限制，快速获取
+  - title: 脚本
+    details: 批量处理，解放双手。
 ---
 
