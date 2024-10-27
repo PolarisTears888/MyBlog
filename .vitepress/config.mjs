@@ -19,7 +19,50 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
-      }
+      },
+
+      {
+        text: '通用工具',
+        items: [
+          {text: '软件工具', link: '/MyKnowledgeBase/tutorial/general/tools'},
+          {text: '脚本工具', link: '/MyKnowledgeBase/tutorial/general/scripts'},
+        ]
+      },    
+
+      {
+        text: '视觉',
+        items: [
+          {text: '工具及插件', link: '/MyKnowledgeBase/tutorial/Visual/PlugIn'},
+          {text: '图片网址', link: '/MyKnowledgeBase/tutorial/Visual/CollectURL'},
+        ]
+      },
+
+      {
+        text: '文本',
+        items: [
+          {text: '工具及插件', link: '/MyKnowledgeBase/tutorial/Text/PlugIn'},
+          {text: '脚本工具', link: '/MyKnowledgeBase/tutorial/Text/scripts'},
+        ]
+      },      
+
+      {
+        text: '语音',
+        items: [
+          {text: '工具及插件', link: '/MyKnowledgeBase/tutorial/Speech/Tool'},
+          {text: '脚本工具', link: '/MyKnowledgeBase/tutorial/Speech/scripts'},
+        ]
+      },     
+
+      {
+        text: 'Python',
+        items: [
+          {text: '本地脚本', link: '/MyKnowledgeBase/python/Local'},
+          {text: '联网脚本', link: '/MyKnowledgeBase/python/Network.md'},
+        ]
+      },
+
+
+
     ],
 
     // 设置搜索框的样式
