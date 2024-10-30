@@ -18,7 +18,7 @@ features:
   - title: 工具
     details: 简化步骤，快速达成。
   - title: 插件
-    details: 突破限制，快速获取
+    details: 突破限制，快速获取。
   - title: 脚本
     details: 批量处理，解放双手。
 ---
