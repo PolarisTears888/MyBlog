@@ -5,8 +5,14 @@ export default defineConfig({
   base: '/MyBlog/',
   title: "Polaris",
   description: "A VitePress Site",
+    head:[
+      ['link', { rel: 'icon', href: 'https://vitepress.dev/vitepress-logo-mini.svg'}]
+    ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+
+    logo: 'https://vitepress.dev/vitepress-logo-mini.svg',
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
@@ -17,7 +23,7 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
         ]
       },
 
@@ -59,9 +65,7 @@ export default defineConfig({
           {text: '本地脚本', link: '/MyKnowledgeBase/python/Local'},
           {text: '联网脚本', link: '/MyKnowledgeBase/python/Network.md'},
         ]
-      },
-
-
+      },      
 
     ],
 

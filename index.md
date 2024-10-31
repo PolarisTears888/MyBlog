@@ -6,6 +6,9 @@ hero:
   name: "办公效率工具资料库"
   text: "收集整理提效工具"
   tagline: 实时更新中...
+  image:
+    src: https://bu.dusays.com/2024/10/31/6723a66e60ea3.webp
+    alt: VitePress
   actions:
     - theme: brand
       text: 进入资料库
